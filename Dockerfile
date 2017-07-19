@@ -1,6 +1,6 @@
 FROM node:latest
 
-LABEL name="node-microservice-with-docker-in-30mins"
+LABEL name="node-microservice-docker"
 
 WORKDIR /tmp
 COPY ./package.json package.json
